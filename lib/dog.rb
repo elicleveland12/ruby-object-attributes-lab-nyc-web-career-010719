@@ -4,9 +4,9 @@ class Dog
     @name = dog_name
   end
   
-  # def initialize(name)
-  #   @name = name 
-  # end 
+  def initialize(name)
+    @name = name 
+  end 
   
   def name 
     @name 
