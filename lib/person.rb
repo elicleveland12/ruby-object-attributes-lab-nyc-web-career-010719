@@ -1,6 +1,6 @@
 class Person 
   
-  def name = (person_name)
+  def name=(person_name)
     @name = person_name 
   end 
   
@@ -8,8 +8,8 @@ class Person
     @name 
   end 
   
-  def initialize(job)
-    @job = job 
+  def job=(person_job)
+    @job = person_job 
   end 
   
   def job 
